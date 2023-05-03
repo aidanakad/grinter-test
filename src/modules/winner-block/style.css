@@ -1,0 +1,32 @@
+.testimonial-content p {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+    color: #000;
+    text-align: start;
+}
+.testimonial-content span {
+    font-family: "Kanit", serif;
+    font-size: 20px;
+    color: #212121;
+    display: block;
+    text-align: start;
+}
+
+.testimonial-content h4 {
+    font-family: "Kanit", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.winner-photo img{
+    height: 270px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 5px;
+}

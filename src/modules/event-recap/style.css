@@ -1,0 +1,60 @@
+.title h2{
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #212121;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.title h4{
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: start;
+    font-size: calc(1.275rem + .3vw);
+}
+
+.recap-txt {
+    font-size: 16px;
+    margin-bottom: 45px;
+    color: #5c5c5c;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: start;
+}
+
+.players{
+    padding: 20px 0 20px 0;
+    height: inherit;
+}
+
+@media screen and (max-width: 742px) {
+    .players{
+        width: 100%;
+    }
+}
+
+.video-area img{
+    width: 600px;
+    height: 391px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 742px) {
+    .video-area img{
+        width: 100%;
+    }
+}
+
+.special-words{
+
+}
+
+.card-border{
+    height: 70%;
+    width: 5px;
+    background: #1e1e1e;
+    /*border-radius: 0px 5px 5px 0px;*/
+}

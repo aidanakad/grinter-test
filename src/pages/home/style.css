@@ -1,0 +1,94 @@
+.membership-btn {
+    background-color: #EFD912;
+    box-shadow: 0px 0px 50px rgba(10, 42, 67, 0.05);
+    border-radius: 30px;
+    min-width: 200px;
+    text-align: right;
+    display: inline-block;
+    height: 54px;
+    transition: all 0.5s ease-out 0s;
+}
+.membership-btn a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #1e1e1e;
+    box-shadow: inset 0px 0px 15px rgba(6, 6, 6, 0.1);
+    border-radius: 30px;
+    min-width: 197px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.5s ease-out 0s;
+}
+.membership-btn a:before {
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 300px;
+    background-color: #1e1e1e;
+    left: -300px;
+    top: -15px;
+    z-index: -1;
+    transition: all 1s ease-out 0s;
+}
+.membership-btn a:hover:before {
+    left: 0;
+    background-color: #EFD912;
+}
+.membership-btn a i {
+    margin-left: 10px;
+}
+.membership-btn:hover {
+    background-color: #1e1e1e;
+}
+
+.swiper{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    transition-property: opacity;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.hero-single{
+    position: relative;
+    background-image: url('../../assets/hero.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    z-index: 1;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-width: 720px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.hero-wrapper h2{
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-size: 73px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.hero-wrapper p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 400;
+}
